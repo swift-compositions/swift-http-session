@@ -18,7 +18,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-foundations/swift-http-cookies.git", branch: "main")
+        .package(url: "https://github.com/swift-compositions/swift-http-cookies.git", branch: "main")
     ],
     targets: [
         .target(

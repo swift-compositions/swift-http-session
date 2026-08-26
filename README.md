@@ -8,7 +8,7 @@ Session identity and lifecycle policy for HTTP clients.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-http-session.git", branch: "main")
+    .package(url: "https://github.com/swift-compositions/swift-http-session.git", branch: "main")
 ]
 ```
 
