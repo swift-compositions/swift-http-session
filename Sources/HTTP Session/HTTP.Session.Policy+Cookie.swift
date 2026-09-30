@@ -10,7 +10,7 @@ extension HTTP.Session.Policy {
     }
 
     public func cookie(expiry: Expiry) -> HTTPCookies.SetCookie {
-        guard expiry == .expired else { return cookie(for: .init(string: "")) }
+        precondition(expiry == .expired, "An active session cookie needs a session ID; use cookie(for:)")
         var attributes = configuration.cookie.attributes
         attributes.maxAge = 0
         return .init(
