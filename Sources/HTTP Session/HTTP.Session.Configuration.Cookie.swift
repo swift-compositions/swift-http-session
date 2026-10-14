@@ -1,7 +1,6 @@
 public import HTTP_Cookies
 
 extension HTTP.Session.Configuration {
-    /// The session cookie name and response attributes.
     public struct Cookie: Sendable, Equatable {
         public var name: String
         public var attributes: HTTPCookies.Configuration

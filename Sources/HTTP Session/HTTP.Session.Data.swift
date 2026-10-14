@@ -1,5 +1,4 @@
 extension HTTP.Session {
-    /// Key/value data associated with a session.
     public struct Data: Sendable, Equatable {
         var storage: [String: String]
 
